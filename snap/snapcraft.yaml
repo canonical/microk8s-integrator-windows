@@ -1,0 +1,14 @@
+name: microk8s-integrator-windows
+base: core20
+version: '0.1'
+summary: MicroK8s Windows integrator
+description: |
+  Provides intregrations between MicroK8s VM and Windows
+  host OS.
+
+grade: stable
+confinement: strict
+
+parts:
+  integrator:
+    plugin: nil

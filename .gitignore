@@ -1,0 +1,15 @@
+/build/
+/parts/
+/prime/
+/stage/
+!/snap/hooks/
+*.snap
+tests/__pycache__
+.idea/
+**/tests/*.pyc
+.venv/
+.vscode/
+/installer/.venv/
+/installer/**/__pycache__
+/installer/dist/
+/installer/build/
